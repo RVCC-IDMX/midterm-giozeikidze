@@ -1,8 +1,90 @@
 /* Styles for Mobile Site */
+body {
+    background-color: #D94F41;
+    color: #2B332E;
+}
 
 /* Header & Hero */
+#hero{
+    background-color: rgb(235, 164, 164);
+    padding: 40px;
+    border-radius: 100px;
+    box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
+
+
+header{
+    text-align: center;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+header img {
+    max-width: 300px;
+    align-items: center;
+    border-radius: 1000px;
+    padding-top: 40px;
+    
+}
+
+header h1 {
+    font-family: "Anton SC", sans-serif;
+    color: #2B332E;
+    font-size: 80px;
+    
+}
+
+#hero p{
+    font-size: 20px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+
 
 /* Projects */
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    font-family: "Anton SC", sans-serif;
+}
+
+#projects img{
+    height: 500px;
+    box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+
+
+}
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 10px;
+
+    
+    
+}
+
+.description {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.description h1{
+    font-size: 50px;
+}
+
+.description button{
+    font-size: 30px;
+    font-family: "Fjalla One", sans-serif;
+    background-color: rgb(235, 164, 164);
+    border-radius: 10px;
+    
+
+}
 
 /* Reviews */
 
